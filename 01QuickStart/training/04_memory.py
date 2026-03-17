@@ -27,7 +27,7 @@ load_dotenv(path_env)
 
 # 获取环境变量
 model_id = os.getenv("HF_MODEL_ID")
-embeddings_model_id = os.getenv("HF_EMBEDDING_MODEL")
+embeddings_model_id = os.getenv("embeddings_model_id")
 
 # 建立向量数据库和检索器
 ## 加载文档
